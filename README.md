@@ -1,9 +1,3 @@
-<div align="center">
-  <img src="docs/icon.png" width="88" height="88" alt="Offset Brightness icon" />
-  <h1>Offset Brightness</h1>
-  <p>A custom auto-brightness controller for Android.</p>
-</div>
-
 ## What it does
 
 A transparent, tunable alternative to Android's built-in auto-brightness. It reads the ambient light sensor in real time, maps lux to screen brightness on a smooth logarithmic curve, and lets you layer a manual **−100% to +100% offset** on top — so the screen can stay consistently brighter or dimmer than the automatic baseline. Changes ease in frame-by-frame (no flicker), and an optional foreground service keeps it adjusting in the background. Includes live lux/nits readouts and two themes (Slate and Midnight). Everything runs on-device — no accounts, no network.
